@@ -19,6 +19,7 @@ services:
       - MOODLE_DATABASE_USER=bn_moodle
       - MOODLE_DATABASE_PASSWORD=Bn_m@@dle!74
       - MOODLE_DATABASE_NAME=bitnami_moodle
+      - MOODLE_REVERSEPROXY=yes
       # Optionnel (évite la génération de certifs dans le conteneur)
       - MOODLE_ENABLE_HTTPS=no
     volumes:
