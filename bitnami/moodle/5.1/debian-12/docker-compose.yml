@@ -12,7 +12,7 @@ services:
       - mariadb_data:/bitnami/mariadb
 
   moodle:
-    image: bitnami/moodle
+    image: lthub/moodle
     environment:
       - MOODLE_DATABASE_HOST=mariadb
       - MOODLE_DATABASE_PORT_NUMBER=3306
