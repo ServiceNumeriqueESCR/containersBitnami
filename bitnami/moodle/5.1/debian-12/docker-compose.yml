@@ -14,7 +14,7 @@ services:
   moodle:
     image: lthub/moodle
     environment:
-      - MOODLE_DATABASE_HOST=mariadb
+      - MOODLE_DB_HOST=mariadb
       - MOODLE_DATABASE_PORT_NUMBER=3306
       - MOODLE_DATABASE_USER=bn_moodle
       - MOODLE_DATABASE_PASSWORD=Bn_m@@dle!74
