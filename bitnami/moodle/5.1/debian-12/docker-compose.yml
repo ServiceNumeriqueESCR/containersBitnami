@@ -15,10 +15,10 @@ services:
     image: lthub/moodle
     environment:
       - MOODLE_DB_HOST=mariadb
-      - MOODLE_DATABASE_PORT_NUMBER=3306
-      - MOODLE_DATABASE_USER=bn_moodle
-      - MOODLE_DATABASE_PASSWORD=Bn_m@@dle!74
-      - MOODLE_DATABASE_NAME=bitnami_moodle
+      - MOODLE_DB_PORT_NUMBER=3306
+      - MOODLE_DB_USER=bn_moodle
+      - MOODLE_DB_PASSWORD=Bn_m@@dle!74
+      - MOODLE_DB_NAME=bitnami_moodle
       - MOODLE_REVERSEPROXY=yes
       # Optionnel (évite la génération de certifs dans le conteneur)
       - MOODLE_ENABLE_HTTPS=no
