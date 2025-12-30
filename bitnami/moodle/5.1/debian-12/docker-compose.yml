@@ -1,6 +1,6 @@
 services:
   mariadb:
-    image: docker.io/bitnami/mariadb:latest
+    image: mariadb:latest
     environment:
       - MARIADB_ROOT_PASSWORD=RootM@@dle!74
       - MARIADB_DATABASE=bitnami_moodle
